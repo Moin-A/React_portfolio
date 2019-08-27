@@ -1,0 +1,24 @@
+.heading-main,.heading-sub {
+
+    font-family: 'Kaushan Script', cursive;
+    background-image: linear-gradient(to right,  #8B0000,	#000000); 
+    -webkit-background-clip:text;
+    display: block;
+    color: transparent;
+   }
+
+  .heading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-weight: 900px;
+    transform: translate(-50%,-50%);
+    text-shadow: 1rem
+  }
+
+ .heading-main{
+font-size: 3rem;  
+ }
+ .heading-sub{
+font-size: 1rem;
+ }

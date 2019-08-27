@@ -1,0 +1,162 @@
+
+/*
+COLORS:
+blue:#0055AA
+lightbluee:#687CE2
+*/
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "base/animations";
+@import "base/typography";
+@import "base/base";
+@import "base/utilities";
+@import "components/grid";
+@import "components/about";
+@import "components/resume"; 
+@import "components/heroimage";
+@import "components/composition";
+
+
+
+ 
+  .img {
+    background-image:linear-gradient(to left,rgba(250,235,215, 0.3),rgba(76, 0, 130, 0.144)), url(../images/adam-kool-ndN00KmbJ1c-unsplash.jpg);
+    height: 95vh;
+    clip-path: polygon(0 0, 100% 0, 100% 80vh ,0 100%);
+    border-radius: 7px;
+      }
+   nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    & a{
+      text-decoration: none;
+      color: #ccc
+     
+   }
+   ul {
+ 
+   list-style: none;
+   align-items:stretch;
+   padding: 0;
+   color: bisque;
+   margin: 0;
+          
+      }
+      
+    li {
+        display: inline-block;
+        padding: 12px;
+        &:first-child a  {
+        color: aquamarine;
+        }
+      }
+     
+ }
+  
+     
+  
+ 
+ 
+ 
+   
+  
+  
+  
+ 
+  
+ 
+  #home>section {
+     background-color: antiquewhite
+  }
+ 
+ 
+ 
+  h2 ,p,span,h3,h4,h5, em  {
+     color:aliceblue;
+     font-style: Sans-serif;
+  }
+ 
+ 
+ 
+     
+     
+ 
+     .education {
+        margin: 120px;
+     } 
+ 
+    
+ 
+    
+     .bar-expand {
+       text-align: right;
+       height: -webkit-fill-available;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       background-color:#4CAF50;
+       position: absolute;
+       display: inline-block;
+       overflow: hidden;
+    }
+ 
+    .bars{
+       overflow: hidden;
+       padding: 0;
+       li {
+        margin-top:40px ;
+        position: relative;
+          margin-bottom: 60px;
+          background: #ccc;
+          height: 42px;
+          border-radius: 3px;
+          list-style: none;
+          em {
+            font: 15px 'opensans-bold', sans-serif;
+            color: aliceblue;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: normal;
+            position: absolute;
+            top:-36px;
+         
+         }
+     }
+    }
+    
+    
+ 
+    .first {
+       width: 35%
+    }
+ 
+    
+ 
+    .column>button {
+       margin: 2rem 5rem;
+   
+    }
+     
+ 
+     .letterbold {
+        color: aqua;
+     }
+     .logo {
+        height: 40px;
+        width: 60px;
+      
+     }
+ 
+     .logo-box {
+        position: absolute;
+        top: 20px;
+        left:20px;
+        
+     }
+     
+  
+ 
+  
+  
+ 
