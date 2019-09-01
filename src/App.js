@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Header from './components/Header'
 import About from './components/About';
 import Resume from './components/Resume';
-import Heroimage from './components/heroimage'
+import Heroimage from './components/heroimage';
+import Skills from './components/Skills';
 
 
 
@@ -35,7 +36,9 @@ componentDidMount(){
                <Header data={this.state.resumeData.main}/>
                <Heroimage/>
                <About data={this.state.resumeData.main}/>
-               <Resume data={this.state.resumeData.resume}/>
+               <Skills data={this.state.resumeData.main}/>
+               
+              
             </div>
         );
     }

@@ -1,0 +1,67 @@
+.section-skills{
+    padding: 2rem 0;
+    margin: 0.1rem;
+    margin-top: 4.5rem;
+    background-image:linear-gradient(to left,rgba(250,235,215, 0.3),rgba(76, 0, 130, 0.144)), url(../images/adam-kool-ndN00KmbJ1c-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    border-radius: 7px;
+    transform: skewY(-3.9deg);
+    box-shadow: 4rem black;
+
+
+
+  .col1-of-4{
+    display: inline-block;
+    margin: 1rem 1rem;
+  
+    max-width: 10rem;
+    &:not(:last-child) 
+      {
+    margin-right: 2.1rem;
+            
+      }
+    }
+
+    
+    @include clearfix;
+    .row{
+ 
+    max-width: 84%;
+      margin:auto;  
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+    }
+    .feature-box{
+
+     background-color: white;
+     font-size: 1.5rem;
+     padding: 1rem;
+     text-align: center;
+     border-radius: 3px;
+     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+     transition: transform 0.2s;
+    
+    &__icon{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(11, 10, 10), rgba(76, 0, 130, 0.144));
+    -webkit-background-clip: text;
+    color:transparent;
+    
+
+    }
+    &:hover {
+        transform: translateY(-0.5rem)
+    }
+    h3, p{
+        color: black
+
+    }
+    }
+   & > * {
+       transform: skewY(3.9deg)
+   } 
+}
