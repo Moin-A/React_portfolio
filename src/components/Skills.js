@@ -13,6 +13,9 @@ export class skills extends Component {
           <section className="section-skills">
    
             <div className="row">
+                <div>
+                    <img></img>
+                </div>
                 <div className="col1-of-4">
                 <div className="feature-box">
                 <i className="feature-box__icon icon-software-pencil"></i>

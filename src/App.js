@@ -4,6 +4,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Heroimage from './components/heroimage';
 import Skills from './components/Skills';
+import Experience from './components/Experience'
 
 
 
@@ -37,6 +38,7 @@ componentDidMount(){
                <Heroimage/>
                <About data={this.state.resumeData.main}/>
                <Skills data={this.state.resumeData.main}/>
+               <Experience data={this.state.resumeData.main}/>
                
               
             </div>
