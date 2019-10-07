@@ -15,8 +15,10 @@ export class Experience extends Component {
                         <div className="card card--1">
                         <div className="cardside cardside--front">
                         <div className="card__picture card__picture--1">&nbsp;</div>
-                            <div className="card__heading card__picture--2">Heading</div>
-                            <div className="card__details card__picture--3">Details</div>
+                        <h4 className="card__heading">
+                         <span className="card__heading--span">Web Technology</span> 
+                        </h4>
+                        <div className="card__details card__picture--3">Details</div>
                      Front
                         </div>
                         <div className="cardside cardside--back">
@@ -28,7 +30,9 @@ export class Experience extends Component {
                         <div className="card card--1">
                         <div className="cardside cardside--front">
                         <div className="card__picture card__picture--1">&nbsp;</div>
-                            <div className="card__heading card__picture--2">Heading</div>
+                        <h4 className="card__heading">
+                         <span className="card__heading--span">Web Technology</span> 
+                        </h4>
                             <div className="card__details card__picture--3">Details</div>
                      Front
                         </div>
@@ -41,7 +45,9 @@ export class Experience extends Component {
                         <div className="card card--2">
                         <div className="cardside cardside--front">
                         <div className="card__picture card__picture--1">&nbsp;</div>
-                            <div className="card__heading card__picture--2">Heading</div>
+                        <h4 className="card__heading">
+                         <span className="card__heading--span">Web Technology</span> 
+                        </h4>
                             <div className="card__details card__picture--3">Details</div>
                      Front
                         </div>
@@ -54,7 +60,9 @@ export class Experience extends Component {
                         <div className="card card--3">
                         <div className="cardside cardside--front">
                             <div className="card__picture card__picture--1">&nbsp;</div>
-                            <div className="card__heading card__picture--2">Heading</div>
+                            <h4 className="card__heading">
+                         <span className="card__heading--span">Web Technology</span> 
+                        </h4>
                             <div className="card__details card__picture--3">Details</div>
                            
                      Front
