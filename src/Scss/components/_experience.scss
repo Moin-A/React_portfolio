@@ -78,19 +78,46 @@
             
                 }
                &--back{
-                background-color: blueviolet ;
+                background-color: #fff ;
                 transform: rotateY(180deg);
                 border-top-left-radius: 0.3rem;
                 border-top-right-radius: 0.3rem;
-                
+                .card__details{
+                    text-align: center;
+                    ul{
+                        list-style: none;
+                        padding-left: 0;
+                        width: 8rem;
+                        display: inline-block;
+                        padding-top: 0.5rem;
+                        text-shadow: 0.5px 0.5px #696464;
+                        li{
+                         
+                            list-style: none;
+                            text-shadow: rgba(51, 49, 49, 0.856);
+                            padding-top: 0.4rem;
+                            padding-bottom: 0.2rem;
+                            font-size: 0.7rem;
+                             text-transform: uppercase;
+                        
+                      
+                            &:not(:last-child){
+                                border-bottom: 1px solid rgba(22, 1, 1, 0.164);
+                            }
+                            
+                        }
+                    }
+                    
+                }
+                 
         }
 
     }    
                
     &__picture{
-        background-size: contain;
+  
         min-height: 9rem;
-        background-size: cover;
+        background-size: contain;
         background-blend-mode: saturation;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 96%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 96%);
@@ -125,7 +152,8 @@
         &--1{  //car--1
         .card__picture{
             &--1{
-            background-image: linear-gradient(to right,rgba(34, 31, 28, 0.3),rgba(20, 22, 19, 0.3))
+            background-image: linear-gradient(to right,rgba(34, 31, 28, 0.3),rgba(20, 22, 19, 0.3)),url(../images/yoann-siloine-LiDVw7tZPfY-unsplash.jpg);
+         
             } 
         }        
         
@@ -134,7 +162,7 @@
     &--2{
         .card__picture{
             &--1{
-                background-image:linear-gradient(to left, rgba(250, 235, 215, 0.3), rgba(76, 0, 130, 0.144)),url(../images/jack-b-pliYdZJNma0-unsplash.jpg);
+                background-image:linear-gradient(to left, rgba(250, 235, 215, 0.3), rgba(76, 0, 130, 0.144)),url(../images/javascript-4523100.jpg);
                 margin-top: -0.04rem
           
           
@@ -152,7 +180,7 @@
         }
         
     }
-    &--1{
+    &--4{
         .card__picture{
             &--1{
                 background-image:linear-gradient(to left, rgba(250, 235, 215, 0.3), rgba(76, 0, 130, 0.144)),url(../images/sample_object5.png);
