@@ -4,15 +4,15 @@
     "occupation":"(Your Occupation Here)",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Well-rounded and accomplished seeking a young professional position. My first-rate skills such as experience developing user-facing software, experience with JavaScript,AJAX, HTML and CSS, understanding of layout aesthetics skills are well suited for the Front-end developer position. I am searching for a position where I can capitalize on my experiences and maximize my potential.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
     "address":{
       "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Murgeshpalya",
+      "state":"Karnataka",
+      "zip": "560017"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",

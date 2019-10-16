@@ -23,6 +23,9 @@ lightbluee:#687CE2
 
  
   .img {
+     @media (max-width:360px) {
+ height: 40rem;
+     }
     background-image:linear-gradient(to left,rgba(250,235,215, 0.3),rgba(76, 0, 130, 0.144)), url(../images/drew-coffman-D1Pa78SnrH0-unsplash.jpg);
     height: 95vh;
     clip-path: polygon(0 0, 100% 0, 100% 80vh ,0 100%);

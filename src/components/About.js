@@ -34,7 +34,7 @@ class About extends Component {
                       <span>your sreeet ,<br/>{city}<br/>{state}<br/>{zip}<br/>{email}  </span>
                       </div >
                       <div className="button-box">
-                      <a className="button" href="#home">RESUME &rarr;</a>
+                      <a className="button" href={'Resume_2.pdf'} download={'Resume_2.pdf'}>RESUME &rarr;</a>
                       </div>
                   
                       
